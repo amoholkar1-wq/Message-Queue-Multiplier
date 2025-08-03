@@ -2,6 +2,7 @@
 
 ## Overview
 This C-based program demonstrates inter-process communication (IPC) using System V message queues. The goal is to generate the smallest `n` numbers of the form `2^a * 3^b * 5^c`, in sorted order, using a central server process and three separate multiplier processes (`mult2`, `mult3`, and `mult5`).
+
 Each multiplier process receives a value from the server, multiplies it by its own factor (2, 3, or 5), and returns the result. The server collects and manages these results, ensuring duplicates are filtered out, and maintains a list of the smallest generated numbers.
 
 ## Files
@@ -32,11 +33,13 @@ Run Instructions
 The number 15 in this case represents how many values you want the program to compute and print.
 
 ## Example Output
+```java
 1 - smallest value = 1
 2 - smallest value = 2
 3 - smallest value = 3
 4 - smallest value = 4
 5 - smallest value = 5
+```
 
 ## Key Concepts Demonstrated
 - System V message queues
