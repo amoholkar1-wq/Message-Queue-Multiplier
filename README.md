@@ -39,6 +39,11 @@ The number 15 in this case represents how many values you want the program to co
 3 - smallest value = 3
 4 - smallest value = 4
 5 - smallest value = 5
+6 - smallest value = 6
+7 - smallest value = 8
+8 - smallest value = 9
+9 - smallest value = 10
+10 - smallest value = 12
 ```
 
 ## Key Concepts Demonstrated
