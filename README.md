@@ -14,22 +14,21 @@ Each multiplier process receives a value from the server, multiplies it by its o
 ```bash
 gcc -o server server.c
 gcc -o mult mult.c
+```
 
 ## Usage
 Run Instructions
 - You must run all processes simultaneously in separate terminals or background processes.
 1. Start the multipliers (each in their own terminal or background process):
-bash
-Copy
-Edit
+```bash
 ./mult 2 15
 ./mult 3 15
 ./mult 5 15
-2. Start the server:
-bash
-Copy
-Edit
+```
+3. Start the server:
+```bash
 ./server 15
+```
 The number 15 in this case represents how many values you want the program to compute and print.
 
 ## Example Output
@@ -38,7 +37,6 @@ The number 15 in this case represents how many values you want the program to co
 3 - smallest value = 3
 4 - smallest value = 4
 5 - smallest value = 5
-...
 
 ## Key Concepts Demonstrated
 - System V message queues
